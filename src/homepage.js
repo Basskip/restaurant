@@ -4,7 +4,7 @@ export default function drawHome() {
     content.innerHTML = '';
 
     let image = document.createElement("img");
-    image.src = "../images/restaurant.jpg";
+    image.src = "./images/restaurant.jpg";
 
     let header = document.createElement("h1");
     header.textContent = "Awesome Restaurant Homepage!";
