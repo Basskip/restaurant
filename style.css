@@ -1,3 +1,33 @@
+#container {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
 img {
     width: 100%;
+}
+
+nav {
+    display: flex;
+}
+
+.nav-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    height: 30px;
+    padding: 0 30px;
+
+    border: 1px solid black;
+}
+
+.nav-item:hover {
+    background-color: grey;
+    cursor: pointer;
+}
+
+.active {
+    background-color: black;
+    color: white;
 }
